@@ -33,6 +33,10 @@ PRODUCT_COPY_FILES += \
 else
 PRODUCT_COPY_FILES += \
     vendor/pure/prebuilt/lib64/libjni_latinime.so:system/lib64/libjni_latinime.so
+
+# FIRE-ICE kernel
+PRODUCT_COPY_FILES += \
+    vendor/pure/prebuilt/bin/fsck.f2fs:system/bin/fsck.f2fs
 endif
 
 # Camera Effects for devices without a vendor partition
