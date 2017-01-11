@@ -15,11 +15,11 @@
 # Include pure tablet configuration
 include vendor/pure/configs/pure_tablet.mk
 
-# Inherit AOSP device configuration for dragon
+# Inherit AOSP device configuration for flounder
 $(call inherit-product, device/htc/flounder/aosp_flounder.mk)
 
 # Override AOSP build properties
-PRODUCT_NAME := volantis
+PRODUCT_NAME := flounder
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := flounder
 PRODUCT_MODEL := Nexus 9
