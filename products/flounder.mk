@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Include pure tablet configuration
-include vendor/pure/configs/pure_tablet.mk
+include vendor/pure/configs/bootanimation.mk
+include vendor/pure/configs/system_additions.mk
 
 # Inherit AOSP device configuration for flounder
 $(call inherit-product, device/htc/flounder/aosp_flounder.mk)
