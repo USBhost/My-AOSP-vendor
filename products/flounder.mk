@@ -28,4 +28,4 @@ PRODUCT_MANUFACTURER := htc
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=volantis \
-    BUILD_FINGERPRINT=google/volantis/flounder:7.1.1/N9F27F/4072790:user/release-keys
+    BUILD_FINGERPRINT=google/volantis/flounder:7.1.1/N9F27H/4108833:user/release-keys
